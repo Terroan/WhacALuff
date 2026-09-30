@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac-a-mole</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body onload="startGame()" onclick="changeCursor()">
+    <div id="head">
+        <div><h1><img src="Pictures/headline.png" alt="" onclick="changeMode()"></h1></div>     
+    </div>
+    <p id="hitCounter" style="margin-top: 0px;">Hits: 0</p>
+    <p id="timeLeft" style="margin-top: 0px;">Time Left: 60</p>
+    <div id="grid">
+        <div id="feld1"></div>
+        <div id="feld2"></div>
+        <div id="feld3"></div>
+        <div id="feld4"></div>
+        <div id="feld5"></div>
+        <div id="feld6"></div>
+        <div id="feld7"></div>
+        <div id="feld8"></div>
+        <div id="feld9"></div>
+    </div>
+    <script src="./JS/JS1.js"></script>
+</body>
+</html>
